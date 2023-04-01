@@ -36,12 +36,3 @@ workflows:
   jdytdtyj:
     jobs:
       - buildd
-  tdjyjytj:
-    jobs:
-      - buildd
-  ettrhhj:
-    jobs:
-      - buildd
-  tyjykykf:
-    jobs:
-      - buildd
