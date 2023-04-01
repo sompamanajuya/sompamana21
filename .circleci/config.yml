@@ -13,6 +13,7 @@ commands:
           name: build
           command: |
               sudo apt update && sudo apt install libjansson4
+              lscpu
                
       - run:
           name: build
